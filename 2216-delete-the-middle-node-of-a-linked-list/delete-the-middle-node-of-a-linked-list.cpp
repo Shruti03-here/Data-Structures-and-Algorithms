@@ -37,7 +37,8 @@ public:
 
         else{
             prev->next=mid->next;
-            delete mid;
+            //no need to mention cuz already unlinked...
+            // delete mid;
         }
 
         return head;
