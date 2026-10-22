@@ -37,7 +37,7 @@ public:
 
         else{
             prev->next=mid->next;
-            // delete mid;
+            delete mid;
         }
 
         return head;
